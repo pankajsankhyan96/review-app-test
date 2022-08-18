@@ -11,7 +11,7 @@
         }
     },
     "environments": {
-      "review ": {
+      "review": {
         "env": {
           "NODE_ENV": "development"
         }
