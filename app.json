@@ -13,7 +13,7 @@
     "environments": {
       "review": {
         "scripts": {
-          "postdeploy": "set NODE_ENV=production&& node src/index.js"
+          "postdeploy": "set NODE_ENV=local&& node src/index.js"
         }
       }
     }
