@@ -16,7 +16,7 @@
           "NODE_ENV": "development"
         },
         "scripts": {
-          "postdeploy": "bundle exec rails db:seed"
+          "postdeploy": "set NODE_ENV=developmentn&& node src/index.js"
         }
       }
     }
