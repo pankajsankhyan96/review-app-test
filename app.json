@@ -11,9 +11,9 @@
         }
     },
     "environments": {
-      "review ": {
-        "env": {
-          "NODE_ENV": "development"
+      "review": {
+        "scripts": {
+          "postdeploy": "set NODE_ENV=local&& node src/index.js"
         }
       }
     }
